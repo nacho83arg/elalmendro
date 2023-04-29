@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  padding: .5%;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.redes {
+  grid-column-start: 10;
+  grid-column-end: 12;
+  align-items: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  margin: 1%;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-weight: bold;
+  color: #9ec31b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 15px;
+}
+
+.boton_contacto {
+  background-color: #1a5733;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+
+.active {
+  background-color: white;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 2%;
+  padding: 5%;
+  display: grid;
+  grid-gap: 20px;
+  background-image: url(/img/fondo_banner.jpg);
+  width: auto;
+
+}
+
+.banner_left {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.datos1 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 15px;
+  text-align: center;
+  height: auto;
+}
+
+.datos2 {
+  grid-column-start: 9;
+  grid-column-end: 10;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 15px;
+  text-align: center;
+  height: auto;
+}
+
+.datos3 {
+  grid-column-start: 11;
+  grid-column-end: 12;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 15px;
+  text-align: center;
+  height: auto;
+}
+
+
+
+.titulo {
+  font-size: 80px;
+  font-weight: bold;
+  color: #d4dc90;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo {
+  font-size: 40px;
+  color: #d4dc90;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.num_tit {
+  padding: 1%;
+  font-size: 80px;
+  font-weight: bold;
+  color: #1a5733;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.dato_tit {
+  padding: 1%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a5733;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dato_stit {
+  padding: 3%;
+  font-size: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 3%;
+  justify-content: space-around;
+  font-size: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
