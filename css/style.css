@@ -11,6 +11,34 @@ header {
   grid-template-columns: repeat(12, 1fr);
 }
 
+h1{
+  color: #1a5733;
+  padding: 1%;
+}
+
+h2{
+  color: #4CAF50;
+  padding: 1%;
+}
+
+p{
+  color: #1a5733;
+  padding: .2%;
+}
+
+ul{
+  color: #1a5733;
+  padding: 1%;
+}
+
+li{
+  padding: 0.5%;
+}
+
+section{
+  padding: 2%;
+}
+
 .logo {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -22,8 +50,7 @@ header {
   align-items: flex-end;
 }
 
-ul {
-  list-style-type: none;
+.ul_menu {
   margin: 1%;
   padding: 0;
   overflow: hidden;
@@ -32,11 +59,11 @@ ul {
   top: 0;
 }
 
-li {
+.li_menu {
   float: left;
 }
 
-li a {
+.li_menu a {
   display: block;
   font-weight: bold;
   color: #9ec31b;
@@ -46,16 +73,39 @@ li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-li a:hover {
+.li_menu a:hover {
   background-color: #4CAF50;
   color: white;
   border-radius: 15px;
 }
 
 .boton_contacto {
+  display: block;
+  font-weight: bold;
+  color: #9ec31b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #1a5733;
   border-radius: 15px;
   margin: 2px;
+}
+
+.boton_contacto a {
+  display: block;
+  font-weight: bold;
+  color: #9ec31b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton_contacto a:hover {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 15px;
 }
 
 
@@ -158,3 +208,68 @@ li a:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
+/* ***FOOTER*** */
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  background-color: #1a5733;
+}
+
+.section.footer{
+  display: grid;
+  padding: 2%;
+}
+
+.h2_footer{
+  padding: 1%;
+  color: white;
+}
+
+.p_footer{
+  color: white;
+}
+
+.p_footer a{
+  color: #4CAF50;
+}
+
+.img_footer{
+  padding: 0.5%;
+  justify-content: space-around;
+}
+
+
+/* ***COLABORAR*** */
+
+.titulo_verde{
+  color: #4CAF50;
+  text-align: center;
+}
+
+.boton{
+align-items: flex-end;
+border: 1px solid #1a5733 /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #1a5733; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 10px; /*bordes redondos*/
+}
+
+.bancos{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  background-color: #a8c5a9;
+}
+
+.li_bancos{
+  color: white;
+  margin: 2%;
+}
+
