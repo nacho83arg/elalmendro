@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
 }
 
@@ -39,6 +40,7 @@ section{
   padding: 2%;
 }
 
+
 .logo {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -48,6 +50,10 @@ section{
   grid-column-start: 10;
   grid-column-end: 12;
   align-items: flex-end;
+}
+
+nav{
+
 }
 
 .ul_menu {
@@ -103,7 +109,7 @@ section{
 }
 
 .boton_contacto a:hover {
-  background-color: #4CAF50;
+
   color: white;
   border-radius: 15px;
 }
@@ -250,8 +256,9 @@ footer{
 }
 
 .boton{
-align-items: flex-end;
-border: 1px solid #1a5733 /*anchura, estilo y color borde*/
+display: flexbox;
+text-align: center;
+border: 2px solid #1a5733 /*anchura, estilo y color borde*/
 padding: 10px; /*espacio alrededor texto*/
 background-color: #1a5733; /*color botón*/
 color: #ffffff; /*color texto*/
@@ -261,15 +268,71 @@ font-family: 'Helvetica', sans-serif; /*tipografía texto*/
 border-radius: 10px; /*bordes redondos*/
 }
 
+.boton_g{
+display: flexbox;
+text-align: center;
+width: auto;
+height: 10px;
+padding: 10px; /*espacio alrededor texto*/
+background-color: #1a5733; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 10px; /*bordes redondos*/
+}
+
+.boton_g a:hover{
+  background-color: #4CAF50 ; /*color botón*/
+  color: #ffffff; /*color texto*/
+  }
+
 .bancos{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  background-color: #a8c5a9;
+  background-color: #4CAF50;
+  box-shadow: 7px 13px 37px;
 }
 
 .li_bancos{
   color: white;
   margin: 2%;
+}
+
+
+/* ***CONTACTO*** */
+
+.contacto{
+  width: 500px;
+  background-color: #4CAF50;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  box-shadow: 7px 13px 37px;
+
+}
+
+.contacto h2{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.input_form{
+  width: 100%;
+  padding: 3%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  
+}
+
+.form .boton {
+  width: 100%;
+  border: none;
+  padding: 12px;
+
 }
 
