@@ -47,6 +47,12 @@ section{
   display: none;
 }
 
+.linea{
+  background-color:#9ec31b ;
+  width: auto;
+  height: 5px;
+}
+
 
 
 
@@ -366,11 +372,14 @@ border-radius: 10px; /*bordes redondos*/
 
 aside{
   display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 15px;
   border-color: #9ec31b;
   border-width: 2px;
-  width: 250px;
+  width: auto;
+  border-color: #1a5733;
+  border-style: double;
 
 }
 
@@ -378,8 +387,8 @@ aside{
 .ul_aside h4{
   font-size: 1.2em;
   text-align: center;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
 }
 
 .ul_aside li{
@@ -594,6 +603,7 @@ nav li:hover {
 aside{
   display: flex;
   flex-wrap: wrap;
+  width: 250px;
 }
 
 .ul_aside h4{
