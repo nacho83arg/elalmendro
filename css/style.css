@@ -266,6 +266,7 @@ footer{
 .img_footer2{
   width: 150px;
   align-items: center;
+  border-radius: 5px;
 }
 
 .prop_footer{
