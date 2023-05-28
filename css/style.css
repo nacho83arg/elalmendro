@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 2px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Prompt', sans-serif;
@@ -56,7 +56,7 @@ section{
 
 
 
-/* MENU NAVEGACION */
+/* WHASTAPP FLOTANTE */
 
 .boton_whastapp{
   position: fixed;
@@ -67,6 +67,8 @@ section{
   right: 30px;
 }
 
+
+/* MENU NAVEGACION */
 
 nav {
   display: flex;
@@ -116,7 +118,10 @@ nav ul li a{
   color:#fff;
   width:100%;
   cursor:pointer;  
- 
+}
+
+.li_menu{
+  width: 200px;
 }
 
 .boton_menu{
@@ -157,7 +162,6 @@ nav ul li a{
   margin-top: 5px;
   margin-bottom: 10px;
 }
-
 
 .titulo {
   font-size: 50px;
@@ -212,9 +216,12 @@ nav ul li a{
 
 .img_secciones{
   width: 250px;
-  padding: 2%;
+  margin: 2%;
+  border-radius: 100%;
+  box-shadow: 5px 10px 5px -3px rgba(0,0,0,0.62);
+  -webkit-box-shadow: 5px 10px 5px -3px rgba(0,0,0,0.62);
+  -moz-box-shadow: 5px 10px 5px -3px rgba(0,0,0,0.62);
 }
-
 
 .texto_img{
   font-size: 1.2em;
@@ -225,7 +232,7 @@ nav ul li a{
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
--webkit-text-stroke: .5px white;
+  -webkit-text-stroke: .5px white;
 ;
 }
 
@@ -298,11 +305,12 @@ footer{
 .boton{
 display: flex;
 justify-content: center;
-width: 300px;
+align-items: center;
+width: auto;
 text-align: center;
-border: 2px solid #1a5733 /*anchura, estilo y color borde*/
-padding: 2%; /*espacio alrededor texto*/
-margin: 15px;
+
+padding: 1%; /*espacio alrededor texto*/
+margin: 5px;
 background-color: #1a5733; /*color botón*/
 color: #ffffff; /*color texto*/
 text-decoration: none; /*decoración texto*/
@@ -333,20 +341,37 @@ border-radius: 10px; /*bordes redondos*/
 
 .bancos{
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   flex-wrap: wrap;
   background-color: #4CAF50;
   box-shadow: 7px 13px 37px;
 }
 
 .li_bancos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   margin: .5%;
   padding: 2%;
   background-color: white;
-  width: 400px;
+  width: 500px;
   border-radius: 15px;
 }
+
+.li_bancos div{
+  margin: 5px;
+}
+
+.li_bancos img{
+  margin: 10px;
+  width: 50px;
+}
+
+.li_bancos p{
+  font-size: 0.8em;
+}
+
 
 
 
@@ -719,7 +744,7 @@ nav ul li a{
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 
   nav {
     display: flex;
@@ -761,6 +786,10 @@ nav li:hover {
 
   .boton_menu{
     display: none;
+  }
+
+  .li_menu{
+    width: auto;
   }
 
   
@@ -834,10 +863,16 @@ aside{
   list-style:none;
   text-decoration:none;
 }
+
+
   
 }
 
-@media (min-width: 400px){
+
+
+
+
+@media (min-width: 450px){
   .redes {
     display: flex;
     justify-content: flex-end;
@@ -847,5 +882,11 @@ aside{
   .redes a{
     margin: 5px;
   }
+
+  .li_bancos p{
+    font-size: 1em;
+  }
+
+
 
 }
