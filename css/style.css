@@ -527,7 +527,7 @@ text-align: center;
 /* PRENSA */
 
 .eventos,
-.prensa{
+.prensa {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -550,11 +550,16 @@ text-align: center;
 }
 
 
-.lupa1,
-.lupa2,
-.lupa3,
-.lupa4,
-.lupa5 {
+.lupa11,
+.lupa12,
+.lupa13,
+.lupa14,
+.lupa15,
+.lupa21,
+.lupa22,
+.lupa23,
+.lupa24,
+.lupa25 {
   width: 25px;
   cursor: pointer;
   margin: 1%;
@@ -567,11 +572,16 @@ text-align: center;
   margin: 15px;
 }
 
-.texto_s1,
-.texto_s2,
-.texto_s3,
-.texto_s4,
-.texto_s5 {
+.texto_s11,
+.texto_s12,
+.texto_s13,
+.texto_s14,
+.texto_s15,
+.texto_s21,
+.texto_s22,
+.texto_s23,
+.texto_s24,
+.texto_s25 {
   max-height: 0px;
   overflow: hidden;
   transition: 1s all;
