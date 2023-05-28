@@ -565,6 +565,7 @@ text-align: center;
   align-items: center;
   flex-wrap: wrap;
   background-color: #4CAF50;
+  border-radius: 10px;
   width: 300px;
 }
 
@@ -586,9 +587,9 @@ text-align: center;
 
 
 .img_s {
-  width: 150px;
+  width: 90%;
+  padding: 5px;
   border-radius: 10px;
-  margin: 15px;
 }
 
 .texto_s11,
