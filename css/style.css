@@ -412,40 +412,54 @@ border-radius: 10px; /*bordes redondos*/
 
 aside{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around ;
   align-items: center;
+  flex-wrap: wrap;
+  background-color: #1a5733;
   border-radius: 15px;
   border-color: #9ec31b;
   border-width: 2px;
   width: auto;
-  border-color: #1a5733;
-  border-style: double;
+  height: auto;
+  padding-bottom: 5px;
 
+}
+
+aside ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
 }
 
 
 .ul_aside h4{
+  color: white;
   font-size: 1.2em;
   text-align: center;
-  margin-top: 5px;
-  padding-top: 5px;
+  margin-top: 2px;
+  padding-top: 2px;
+  margin-bottom: 10px;
 }
 
 .ul_aside li{
-  background-color: #1a5733;
+  align-content: center;
+  background-color:#4CAF50;
   border-radius: 15px;
-  padding-top: 2px;
-  margin-top: 5px;
+  padding: 5px;
+  margin: 5px;
   list-style:none;
-  width: 200px;
   text-align: center;
+  height: auto;
 
 }
 
 .ul_aside a{
   color: white;
-  padding: 2%;
-  margin: 2%;
+  padding: 0;
+  margin: 0;
   text-decoration:none;
 }
 
@@ -458,6 +472,7 @@ aside{
 .boton_centro{
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 
 
@@ -841,6 +856,8 @@ nav li:hover {
   }
 
 
+
+
   /* ASIDE + SECTION */
 
 .aside_section{
@@ -851,8 +868,20 @@ nav li:hover {
 
 aside{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 250px;
+}
+
+aside ul{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.ul_aside h4{
+  margin-bottom: 25px;
+
 }
 
 .ul_aside h4{
@@ -865,6 +894,7 @@ aside{
   margin-top: 5px;
   list-style:none;
   text-decoration:none;
+  height: 50px;
 }
 
 
