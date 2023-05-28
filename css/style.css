@@ -579,7 +579,9 @@ text-align: center;
 .lupa22,
 .lupa23,
 .lupa24,
-.lupa25 {
+.lupa25,
+.lupa26,
+.lupa27 {
   width: 25px;
   cursor: pointer;
   margin: 1%;
@@ -589,7 +591,8 @@ text-align: center;
 .img_s {
   width: 90%;
   padding: 5px;
-  border-radius: 10px;
+  margin-top: 5px;
+  border-radius: 15px;
 }
 
 .texto_s11,
@@ -601,7 +604,9 @@ text-align: center;
 .texto_s22,
 .texto_s23,
 .texto_s24,
-.texto_s25 {
+.texto_s25,
+.texto_s26,
+.texto_s27{
   max-height: 0px;
   overflow: hidden;
   transition: 1s all;
