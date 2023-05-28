@@ -33,8 +33,8 @@ function myFunction3() {
   }
 }
 
-document.getElementById("lupa3").addEventListener("click", myFunction3);
-function myFunction3() {
+document.getElementById("lupa3").addEventListener("click", myFunction4);
+function myFunction4() {
   let image = document.getElementById("lupa3");
   let texto = document.getElementById("texto_s3");
 

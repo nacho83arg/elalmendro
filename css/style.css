@@ -14,13 +14,12 @@ header {
   margin: 1%;
 }
 
-h1{
+h1,
+h2,
+h3,
+h4,
+h5{
   color: #1a5733;
-  padding: 1%;
-}
-
-h2{
-  color: #4CAF50;
   padding: 1%;
 }
 
@@ -50,7 +49,9 @@ section{
 .linea{
   background-color:#9ec31b ;
   width: auto;
-  height: 5px;
+  height: 3px;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -127,6 +128,8 @@ nav ul li a{
 .boton_menu{
   justify-content: center;
   width: 50px;
+  padding: 0;
+  margin: 0;
 }
 
 .img_nav{
@@ -291,6 +294,27 @@ footer{
   text-decoration: none;
   color: black;
 
+}
+
+/* CAPACITACION */
+
+.tit_capacitacion{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.div_capacitacion li,
+.div_capacitacion h3,
+.div_capacitacion h5,
+.div_capacitacion p{
+  margin: .5px;
+  padding: .5px;
+}
+
+.div_capacitacion h3{
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 15px;
 }
 
 
