@@ -587,24 +587,28 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:#1a5733;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0;
 
 }
 
 .historia iframe{
   Overflow: hidden;
-  width: 100%;
+  width: 90%;
   height: 500px;
 }
 
 #timeline{
   content: '';
   position: absolute;
-  background: #1a5733;
+  background: white;
   width: 2px;
   left: 50%;
 }
 .child{
-  background-color: #4CAF50;
+  background-color:#4CAF50;
   position: relative;
   margin: 20px;
   opacity: 5;
@@ -624,7 +628,7 @@ text-align: center;
 .child:nth-child(odd)::before{
   content: '';
   position: absolute;
-  background: #1a5733;
+  background: white;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -633,7 +637,7 @@ text-align: center;
 .child:nth-child(odd)::after{
   content: '';
   position: absolute;
-  background: #1a5733;    
+  background: white;    
   width: 10px;
   height: 2px;
   left: -10px;
@@ -655,7 +659,7 @@ text-align: center;
 .child:nth-child(even)::before{
   content: '';
   position: absolute;
-  background: #1a5733;
+  background: white;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -664,7 +668,7 @@ text-align: center;
 .child:nth-child(even)::after{
   content: '';
   position: absolute;
-  background: #1a5733;    
+  background: white;    
   width: 10px;
   height: 2px;
   right: -10px;
@@ -675,7 +679,6 @@ text-align: center;
   width: 300px;
   padding: 15px;
   color: white;   
- 
 }
 
 .content p{

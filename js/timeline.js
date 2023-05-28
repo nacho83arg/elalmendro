@@ -30,7 +30,7 @@ const frameworks = [
     },
     {
         name:"8 DE JULIO DE 2022", 
-        description:"CUMPLIMOS 3O AÑOS"
+        description:"CUMPLIMOS 3O AÑOS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     },
 ]
 
