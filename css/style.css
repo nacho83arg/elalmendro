@@ -545,10 +545,14 @@ text-align: center;
 
 /* PRENSA */
 
+.eventos_prensa{
+
+}
+
 .eventos,
 .prensa {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -929,6 +933,13 @@ aside ul{
   .li_bancos p{
     font-size: 1em;
   }
+
+.eventos,
+.prensa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 
 
