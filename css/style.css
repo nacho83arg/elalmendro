@@ -307,10 +307,7 @@ footer{
   padding-bottom: 0;
 }
 
-.div_capacitacion li,
-.div_capacitacion h3,
-.div_capacitacion h5,
-.div_capacitacion p{
+.div_capacitacion li{
   margin: .5px;
   padding: .5px;
 }
@@ -319,9 +316,19 @@ footer{
   background-color: #4CAF50;
   color: white;
   margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.div_capacitacion h5{
+  margin-top: 5px;
+  font-size: 1.2em;
 }
 
 
+.div_capacitacion p{
+  margin-top: 5px;
+}
 
 /* ***COLABORAR*** */
 
