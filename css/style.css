@@ -558,6 +558,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .eventos h3,
@@ -617,10 +618,54 @@ text-align: center;
 .texto_s24,
 .texto_s25,
 .texto_s26,
-.texto_s27{
+.texto_s27,
+.texto_s28{
   max-height: 0px;
   overflow: hidden;
   transition: 1s all;
+  
+}
+
+
+.texto_s11 a,
+.texto_s12 a,
+.texto_s13 a,
+.texto_s14 a,
+.texto_s15 a,
+.texto_s21 a,
+.texto_s22 a,
+.texto_s23 a,
+.texto_s24 a,
+.texto_s25 a,
+.texto_s26 a,
+.texto_s27 a,
+.texto_s28 a{
+  display: flex;
+  justify-content: center;
+color: white;
+text-decoration: none;
+font-size: 1.2em;
+background-color: #1a5733;
+border-radius: 5px;
+padding: 2px;
+margin-bottom: 5px;
+  
+}
+
+.texto_s11 p,
+.texto_s12 p,
+.texto_s13 p,
+.texto_s14 p,
+.texto_s15 p,
+.texto_s21 p,
+.texto_s22 p,
+.texto_s23 p,
+.texto_s24 p,
+.texto_s25 p,
+.texto_s26 p,
+.texto_s27 p,
+.texto_s28 p {
+color: white;
   
 }
 
