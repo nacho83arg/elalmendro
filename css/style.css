@@ -601,7 +601,8 @@ text-align: center;
 .lupa27,
 .lupa28,
 .lupa29,
-.lupa30 {
+.lupa30,
+.lupa31 {
   width: 25px;
   cursor: pointer;
   margin: 1%;
@@ -630,7 +631,9 @@ text-align: center;
 .texto_s27,
 .texto_s28,
 .texto_s29,
-.texto_s30{
+.texto_s30,
+.texto_s31,
+.texto_s32{
   max-height: 0px;
   overflow: hidden;
   transition: 1s all;
@@ -653,6 +656,8 @@ text-align: center;
 .texto_s28 a,
 .texto_s29 a,
 .texto_s30 a,
+.texto_s31 a,
+.texto_s32 a,
 .boton_m{
 display: flex;
 justify-content: center;
@@ -684,7 +689,9 @@ max-width: 200px;
 .texto_s27 p,
 .texto_s28 p,
 .texto_s29 p,
-.texto_s30 p {
+.texto_s30 p,
+.texto_s31 p,
+.texto_s32 p {
 color: white;
   
 }
