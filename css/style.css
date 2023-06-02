@@ -331,6 +331,7 @@ footer{
 /* ***COLABORAR*** */
 
 .titulo_verde{
+  font-size: 1em;
   color: #4CAF50;
   text-align: center;
 }
@@ -354,7 +355,7 @@ border-radius: 10px; /*bordes redondos*/
 display: flex;
 justify-content: center;
 text-align: center;
-width: 300px;
+width: 250px;
 height: auto;
 padding: 8px; /*espacio alrededor texto*/
 background-color: #1a5733; /*color botón*/
@@ -993,6 +994,13 @@ aside ul{
   justify-content: center;
 }
 
+.boton_g{
+  font-size: 1.5em;
+  width: 400px;
+  }
+
+
+
   
 }
 
@@ -1022,7 +1030,10 @@ aside ul{
   flex-wrap: wrap;
 }
 
+.titulo_verde{
+  font-size: 1.5em;
 
+}
 
 
 }
