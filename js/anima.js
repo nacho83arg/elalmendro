@@ -168,3 +168,31 @@ function myFunction28() {
     texto.classList.toggle("mostrar2");
   }
 }
+
+document.getElementById("lupa29").addEventListener("click", myFunction29);
+function myFunction29() {
+  let image = document.getElementById("lupa29");
+  let texto = document.getElementById("texto_s29");
+
+  if (image.getAttribute("src") === "icn/lupa.png") {
+    image.setAttribute("src", "icn/lupa-menos.png");
+    texto.classList.toggle("mostrar2");
+  } else {
+    image.setAttribute("src", "icn/lupa.png");
+    texto.classList.toggle("mostrar2");
+  }
+}
+
+document.getElementById("lupa30").addEventListener("click", myFunction30);
+function myFunction30() {
+  let image = document.getElementById("lupa30");
+  let texto = document.getElementById("texto_s30");
+
+  if (image.getAttribute("src") === "icn/lupa.png") {
+    image.setAttribute("src", "icn/lupa-menos.png");
+    texto.classList.toggle("mostrar2");
+  } else {
+    image.setAttribute("src", "icn/lupa.png");
+    texto.classList.toggle("mostrar2");
+  }
+}

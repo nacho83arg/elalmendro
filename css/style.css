@@ -326,9 +326,7 @@ footer{
 }
 
 
-.div_capacitacion p{
-  margin-top: 5px;
-}
+
 
 /* ***COLABORAR*** */
 
@@ -343,14 +341,12 @@ justify-content: center;
 align-items: center;
 width: auto;
 text-align: center;
-
 padding: 1%; /*espacio alrededor texto*/
 margin: 5px;
 background-color: #1a5733; /*color botón*/
 color: #ffffff; /*color texto*/
 text-decoration: none; /*decoración texto*/
 text-transform: uppercase; /*capitalización texto*/
-font-family: 'Helvetica', sans-serif; /*tipografía texto*/
 border-radius: 10px; /*bordes redondos*/
 }
 
@@ -584,11 +580,12 @@ text-align: center;
   border-radius: 10px;
   width: 300px;
   height: auto;
-  min-height: 250px;
+  min-height: 300px;
 }
 
 
 
+.lupa,
 .lupa11,
 .lupa12,
 .lupa13,
@@ -600,7 +597,10 @@ text-align: center;
 .lupa24,
 .lupa25,
 .lupa26,
-.lupa27 {
+.lupa27,
+.lupa28,
+.lupa29,
+.lupa30 {
   width: 25px;
   cursor: pointer;
   margin: 1%;
@@ -614,6 +614,7 @@ text-align: center;
   border-radius: 15px;
 }
 
+.texto_s,
 .texto_s11,
 .texto_s12,
 .texto_s13,
@@ -626,7 +627,9 @@ text-align: center;
 .texto_s25,
 .texto_s26,
 .texto_s27,
-.texto_s28{
+.texto_s28,
+.texto_s29,
+.texto_s30{
   max-height: 0px;
   overflow: hidden;
   transition: 1s all;
@@ -646,19 +649,26 @@ text-align: center;
 .texto_s25 a,
 .texto_s26 a,
 .texto_s27 a,
-.texto_s28 a{
-  display: flex;
-  justify-content: center;
+.texto_s28 a,
+.texto_s29 a,
+.texto_s30 a,
+.boton_m{
+display: flex;
+justify-content: center;
+justify-items: center;
 color: white;
 text-decoration: none;
-font-size: 1.2em;
+font-size: 1em;
 background-color: #1a5733;
 border-radius: 5px;
 padding: 2px;
 margin-bottom: 5px;
+width: auto;
+max-width: 200px;
   
 }
 
+.texto_s,
 .texto_s11 p,
 .texto_s12 p,
 .texto_s13 p,
@@ -671,7 +681,9 @@ margin-bottom: 5px;
 .texto_s25 p,
 .texto_s26 p,
 .texto_s27 p,
-.texto_s28 p {
+.texto_s28 p,
+.texto_s29 p,
+.texto_s30 p {
 color: white;
   
 }
