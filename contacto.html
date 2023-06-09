@@ -53,14 +53,16 @@
 
         <section>
             <h2>Contacto</h2>
-            <form action="" method="POST" />
-                <input class="input_form" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"><br>
+            <form action="./php/enviar1.php" method="POST" />
+                <input class="input_form" type="text" id="nombre" name="name" placeholder="Ingrese su nombre"><br>
                 <input class="input_form" type="number" id="tel" name="tel" placeholder="Ingrese su teléfono">
                 <input class="input_form" type="email" id="mail" name="mail" placeholder="Ingrese su correo electrónico">
                 <input class="input_form" type="text" id="asunto" name="asunto" placeholder="Ingrese el asunto">
                 <textarea rows="5" class="input_form" type="text" id="mensaje" name="mensaje" placeholder="Ingreso su mensaje"> </textarea>
                 <input type="checkbox"> Deseo recibir información de El Almendro vía mail o whastapp
-                <input id="boton_contacto" class="boton" type="submit" value="Enviar mensaje">
+                <div class="boton_centro">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
               </form>
 
         </section>
