@@ -14,6 +14,8 @@ header {
   margin: 1%;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -239,7 +241,7 @@ nav ul li a{
 
 .fondo1,
 .fondo2,
-.fondo2{
+.fondo3{
   width: 25px;
   height: 150px;
   background-color:#96b734 ;
@@ -700,12 +702,8 @@ text-align: center;
 
 .h2_eventos_prensa{
   color: white;
-  background-color: #185531;
   padding: 5px;
-  border-radius: 10px;
   text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 
 .titulo_s {
@@ -748,7 +746,7 @@ text-align: center;
 .img_s {
   width: 90%;
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 20px;
   border-radius: 15px;
 }
 
@@ -1154,6 +1152,13 @@ aside ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-content: center;
+  max-width: 1200px;
+  border-color:#96b734 ;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0 20px 0 20px;
+  margin: 30px;
 }
 
 .titulo_s_index {
@@ -1161,7 +1166,7 @@ aside ul{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #96b734;
+  background-color:#185531;
   border-radius: 10px;
   width: 500px;
   height: auto;
@@ -1178,8 +1183,24 @@ aside ul{
   }
 
 
+}
 
-  
+.centrar{
+  display: flex;
+  justify-content: center;
+}
+
+.tit_ep{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #185531;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.icon_ep{
+  width: 50px;
 }
 
 
