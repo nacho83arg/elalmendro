@@ -240,6 +240,7 @@ nav ul li a{
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 10px;
+  padding-bottom: 10px;
   box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
 -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
 -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
@@ -262,6 +263,8 @@ nav ul li a{
   font-size: 60px;
   font-weight: bold;
   color: #da9116;
+  margin-top: 2px;
+  padding-bottom: 1px;
 }
 
 .dato_tit {
@@ -271,7 +274,7 @@ nav ul li a{
 }
 
 .dato_stit {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   padding-left: 1.5%;
   padding-right: 1.5%;
   font-size: 15px;
@@ -284,6 +287,10 @@ nav ul li a{
 /* INDEX */
 
 /* MENU IMAGENES INDEX */
+
+.titulo_seccion{
+  text-align: center;
+}
 
 .contenido {
   display: flex;
@@ -384,8 +391,16 @@ footer{
 /* CAPACITACION */
 
 .tit_capacitacion{
+  margin-left: 50px;
+  margin-right: 20px;
   margin-bottom: 0;
   padding-bottom: 0;
+
+}
+
+.div_capacitacion{
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .div_capacitacion li{
