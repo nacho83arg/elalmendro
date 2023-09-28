@@ -56,7 +56,7 @@ section{
 /* MENU REDES*/
 
 .redes{
-  background-color: #185531;
+  background-color:#da9116;
   border-radius: 5px;
   position: fixed;
   width: 50px;
@@ -67,6 +67,7 @@ section{
   padding-top: 5px;
   padding-bottom: 2px;
   margin-left: 0;
+  z-index: 5;
 }
 
 .redes img{
@@ -86,6 +87,7 @@ section{
   line-height: 55px;
   bottom: 30px;
   right: 30px;
+  z-index: 5;
 }
 
 
@@ -171,12 +173,13 @@ nav ul li a{
 .banner h3{
   color: white;
   font-size: 4em;
+  text-shadow: 2px 3px 9px rgba(3,3,3,0.6);
 }
 
 .banner h4{
   color:#9ec31b ;
-  font-size: 2em;
-
+  font-size: 3em;
+  text-shadow: 2px 3px 9px rgba(3,3,3,0.6);
 }
 
 .banner_right{
@@ -184,7 +187,6 @@ nav ul li a{
   display: flex;
   flex-direction: column;
   width: auto;
-  max-width: 700px;
   z-index: 2;
 }
 
@@ -196,6 +198,7 @@ nav ul li a{
   z-index: 1;
   margin-top: 2px;
 }
+
 .banner_left img{
   border-radius: 10px;
   width: 100%;
@@ -295,9 +298,9 @@ nav ul li a{
 }
 
 .img_secciones{
-  width: 250px;
-  height: 300px;
-  margin: 3%;
+  width: 200px;
+  height: 250px;
+  margin: 5px;
   border-radius: 0px 20px 20px 0px; 
   box-shadow: 5px 10px 5px -3px rgba(0,0,0,0.62);
   -webkit-box-shadow: 5px 10px 5px -3px rgba(0,0,0,0.62);
