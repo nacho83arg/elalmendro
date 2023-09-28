@@ -42,6 +42,12 @@ section{
 }
 
 
+.margen{
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+
 
 
 .linea{
@@ -466,13 +472,20 @@ border-radius: 10px; /*bordes redondos*/
   color: #ffffff; /*color texto*/
   }
 
+.section_bancos{
+  margin-left: 50px;
+  margin-right: 20px;
+}
 
 .bancos{
   display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
   background-color: #96b734;
-  box-shadow: 7px 13px 37px;
+  box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
+  border-radius: 0px 20px 0px 20px;
 }
 
 .li_bancos{
@@ -815,6 +828,8 @@ color: white;
 .quienes_somos p{
   font-size: 1.2em;
   text-align: center;
+  margin-left: 50px;
+  margin-right: 20px;
   margin-top: 2px;
   margin-bottom: 2px;
 }
