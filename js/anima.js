@@ -9,11 +9,11 @@ function myFunction11() {
   let image = document.getElementById("lupa11");
   let texto = document.getElementById("texto_s11");
 
-  if (image.getAttribute("src") === "icn/lupa.png") {
-    image.setAttribute("src", "icn/lupa-menos.png");
+  if (image.getAttribute("src") === "icn/lupa_v.png") {
+    image.setAttribute("src", "icn/lupa-menos_v.png");
     texto.classList.toggle("mostrar2");
   } else {
-    image.setAttribute("src", "icn/lupa.png");
+    image.setAttribute("src", "icn/lupa_v.png");
     texto.classList.toggle("mostrar2");
   }
 }
@@ -24,11 +24,11 @@ function myFunction12() {
   let image = document.getElementById("lupa12");
   let texto = document.getElementById("texto_s12");
 
-  if (image.getAttribute("src") === "icn/lupa.png") {
-    image.setAttribute("src", "icn/lupa-menos.png");
+  if (image.getAttribute("src") === "icn/lupa_v.png") {
+    image.setAttribute("src", "icn/lupa-menos_v.png");
     texto.classList.toggle("mostrar2");
   } else {
-    image.setAttribute("src", "icn/lupa.png");
+    image.setAttribute("src", "icn/lupa_v.png");
     texto.classList.toggle("mostrar2");
   }
 }

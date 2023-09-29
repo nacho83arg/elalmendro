@@ -220,7 +220,7 @@ nav ul li a{
 .banner_left{
   position: absolute;
   width: auto;
-  max-width: 1000px;
+  max-width: 1200px;
   z-index: 1;
   margin-top: 2px;
 }
@@ -242,8 +242,8 @@ nav ul li a{
 .fondo1,
 .fondo2,
 .fondo3{
-  width: 25px;
-  height: 150px;
+  width: 30px;
+  height: 100px;
   background-color:#96b734 ;
   border-radius: 5px;
   margin-left: 10px;
@@ -268,8 +268,8 @@ nav ul li a{
   margin-bottom: 10px;
   padding-bottom: 10px;
   box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
--webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
--moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.48);
   z-index: 2;
 }
 
@@ -818,10 +818,13 @@ width: auto;
 max-width: 200px;
   
 }
-
-
 .texto_s11 p,
-.texto_s12 p,
+.texto_s12 p {
+color: #185531;
+  
+}
+
+
 .texto_s13 p,
 .texto_s14 p,
 .texto_s15 p,
@@ -1066,7 +1069,7 @@ aside ul{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color:#185531;
+  background-color:white;
   border-radius: 10px;
   width: 500px;
   height: auto;
@@ -1074,7 +1077,7 @@ aside ul{
 }
 
 .titulo_s_index h3 {
-  color: white;
+  color: #185531;
 }
 
 .boton_g{
