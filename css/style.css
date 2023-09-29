@@ -49,16 +49,23 @@ section{
   margin-right: 20px;
 }
 
-
-
-
-.linea{
-  background-color:#9ec31b ;
-  width: auto;
-  height: 3px;
-  padding: 0;
-  margin: 0;
+.centrar{
+  display: flex;
+  justify-content: center;
 }
+
+.centrar2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
+
 
 
 /* MENU REDES*/
@@ -369,9 +376,69 @@ nav ul li a{
 footer{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.barra_footer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 30px;
+  margin-bottom: 0;
+
+}
+
+.foot1{
+  width: 15%;
+  height: 40px;
   background-color: #185531;
+  margin: 0;
+}
+
+.foot2{
+  width: 15%;
+  height: 40px;
+  background-color: grey;
+  margin: 0;
+}
+
+.foot3{
+  width: 15%;
+  height: 40px;
+  background-color:#9ec31b ;
+  margin: 0;
+}
+
+.foot4{
+  width: 15%;
+  height: 40px;
+  background-color: #c5d691;
+  margin: 0;
+}
+
+.foot5{
+  width: 15%;
+  height: 40px;
+  background-color:#da9116 ;
+  margin: 0;
+}
+
+.foot6{
+  width: 15%;
+  height: 40px;
+  background-color: #e8bd7b;
+  margin: 0;
+}
+
+.footer_dat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #96b734;
   text-align: center;
+  width: 90%;
 }
 
 .section.footer{
@@ -388,7 +455,7 @@ footer{
 }
 
 .p_footer a{
-  color: #96b734;
+  color:#185531 ;
 }
 
 .img_footer{
@@ -413,6 +480,11 @@ footer{
   color: black;
 
 }
+
+.mapa{
+  border-radius: 10px;
+}
+
 
 /* CAPACITACION */
 
@@ -1088,10 +1160,7 @@ aside ul{
 
 }
 
-.centrar{
-  display: flex;
-  justify-content: center;
-}
+
 
 .tit_ep{
   display: flex;
